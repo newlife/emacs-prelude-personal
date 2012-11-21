@@ -1,6 +1,3 @@
-(setq user-full-name "Konrad Kaplita")
-(setq user-login-name "konrad")
-(setq user-mail-address "konrad.kaplita@erlang-solutions.com")
 
 (global-set-key "\C-x\C-m" 'execute-extended-command)
 (global-set-key (kbd "\C-h") 'delete-backward-char)
@@ -17,9 +14,9 @@
 (set-face-attribute 'mode-line-inactive nil :box nil)
 
 (setq confirm-kill-emacs 'y-or-n-p)   ;; Always ask before exit
-(scroll-bar-mode -1)                  ;; Don't show scrollbar
-(tooltip-mode -1)                     ;; Don't show tooltips
-(desktop-save-mode 1)                 ;; Save emacs session on quit
+;(scroll-bar-mode -1)                  ;; Don't show scrollbar
+;(tooltip-mode -1)                     ;; Don't show tooltips
+;(desktop-save-mode 1)                 ;; Save emacs session on quit
 (setq inhibit-startup-message t)      ;; Don't show startup message
 (setq inhibit-startup-screen t)       ;; Don't show startup screen
 (setq inhibit-splash-screen t)        ;; Don't show splash screen
