@@ -1,4 +1,4 @@
-
+;;
 (global-set-key "\C-x\C-m" 'execute-extended-command)
 (global-set-key (kbd "\C-h") 'delete-backward-char)
 
@@ -63,3 +63,7 @@
 (setq-default fci-rule-width 1)
 (setq-default fci-rule-color "#686868")
 (add-hook 'erlang-mode-hook 'fci-mode)
+(add-hook 'prog-mode-hook 'whitespace-turn-off t)
+(add-hook 'prog-mode-hook 'turn-off-guru-mode t)
+(add-hook 'text-mode-hook 'turn-off-flyspell t)
+(add-hook 'prog-mode-hook 'turn-off-flyspell t)
