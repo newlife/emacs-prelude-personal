@@ -17,6 +17,7 @@
 ;(scroll-bar-mode -1)                  ;; Don't show scrollbar
 ;(tooltip-mode -1)                     ;; Don't show tooltips
 ;(desktop-save-mode 1)                 ;; Save emacs session on quit
+(menu-bar-mode -1)
 (setq inhibit-startup-message t)      ;; Don't show startup message
 (setq inhibit-startup-screen t)       ;; Don't show startup screen
 (setq inhibit-splash-screen t)        ;; Don't show splash screen
