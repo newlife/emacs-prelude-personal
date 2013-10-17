@@ -49,9 +49,9 @@
 (rainbow-delimiters-mode)
 
 ;; Automatically pair braces
-(require 'autopair)
-(electric-pair-mode -1)
-(autopair-global-mode)
+;;(require 'autopair)
+;;(electric-pair-mode -1)
+;;(autopair-global-mode)
 
 ;; Auto complete mode
 (require 'auto-complete)
